@@ -39,7 +39,7 @@
       >
         <img
           class="rounded-lg object-cover rounded-b-none"
-          src="./../../assets/betel_nut/betel_4.jpeg"
+          src="./../../assets/meira.png"
           alt="product image"
           loading="lazy"
         />
