@@ -3,7 +3,7 @@
     <div class="nav-wrapper">
       <div class="flex-none">
         <router-link to="/">
-          <img class="w-24" src="./../../assets/meira.png" alt="logo" />
+          <h1>Tweak Soft</h1>
         </router-link>
       </div>
       <div class="block md:hidden">
