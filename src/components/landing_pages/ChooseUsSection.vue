@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-0 md:pt-24 pb-24 px-4 md:px-6 lg:px-20 xl:px-36 bg-gray-200">
+  <section class="pt-0 md:pt-24 pb-24 px-4 md:px-6 lg:px-20 xl:px-36">
     <p class="text-3xl md:text-4xl font-black text-left md:text-center" data-sal="slide-up"
         data-sal-delay="2000">
       {{ $t("chooseSection.title") }}
@@ -28,7 +28,7 @@
       </choose-card>
     </div>
   </section>
-  <section class="bg-gray-200 pb-10 px-4 mx:px-6 md:px-10 lg:px-36">
+  <section class="pb-10 px-4 mx:px-6 md:px-10 lg:px-36">
     <div class="gradient-hero" data-sal="slide-up"
         data-sal-delay="300">
       <div class="w-full md:w-1/3">

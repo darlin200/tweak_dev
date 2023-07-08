@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200">
+  <div>
     <navigation-bar
       :class="{ 'bg-transpatent md:bg-white shadow-md': scrollIsActive > 1 }"
     />
