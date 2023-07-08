@@ -4,6 +4,7 @@ const messages = {
   en: {
     lang: "English",
     menu: ["Home", "Products", "About Us", "Contact"],
+    scrollDown: "Scroll down to know us !",
     contactButton: "Contact Now",
     address: "Merbau Street, Selatpanjang Kota",
     city: "Kab. Kepulauan Meranti, Riau, Indonesia",
