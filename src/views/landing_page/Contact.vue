@@ -22,11 +22,11 @@
         </div>
         <div class="flex items-center pt-4 space-x-3">
           <phone-icon />
-          <p class="font-semibold">+62 821 7054 8877</p>
+          <p class="font-semibold">{{ $t("contactPage.phone") }}</p>
         </div>
         <div class="flex items-center pt-4 space-x-3">
           <mail-icon />
-          <p class="font-semibold">refinsianipar@gmail.com</p>
+          <p class="font-semibold">{{ $t("contactPage.mail") }}</p>
         </div>
       </div>
       <div class="w-full md:w-2/3 px-0 md:px-20 py-8 md:py-10 space-y-2">
