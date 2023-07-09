@@ -1,38 +1,45 @@
 <template>
   <!-- Hero page -->
-  <section class="relative mt-20">
+  <section class="relative mt-40">
     <div
-      class="bg-local bg-blend-darken py-28 text-center text-white"
-      style="
-        background-image: url(https://media.istockphoto.com/id/1354205009/photo/professional-black-it-programmer-working-on-desktop-computer-male-website-developer-and.jpg?s=170667a&w=0&k=20&c=Sk-LsEKhHW2snFHwv7branig_mNCfyCdCk2TlbK3bIQ=);
-      "
+      class="bg-local bg-blend-darken py-28 text-center text-black"
+     
       data-sal="fade"
       data-sal-delay="300"
       data-sal-duration="800"
       data-sal-easing="ease-out-bounce"
     >
-      <p class="text-5xl font-bold leading-normal">{{ $t("menu[2]") }}</p>
+      <p class="text-6xl font-black  font-bold leading-normal">{{ $t("scrollDown") }}</p>
     </div>
   </section>
   <section class="flex py-20 md:py-36 px-4 items-center md:px-10 lg:px-36">
+    
     <div class="flex flex-col md:flex-row items-center justify-between gap-6">
       <div class="w-full md:w-2/5" data-sal="fade"
-      data-sal-delay="300"
-      data-sal-duration="800"
+      data-sal-delay="800"
+      data-sal-duration="1600"
       data-sal-easing="ease-out-bounce">
-        <p class="text-lg text-green-600 font-medium">{{ $t("aboutPage.title") }}</p>
+        <!-- <p class="text-lg text-green-600 font-medium">{{ $t("aboutPage.title") }}</p> -->
         <p class="text-4xl font-black">{{ $t("menu[2]") }}</p>
         <p class="text-lg pt-4">{{ $t("aboutPage.description") }}</p>
-        <p class="text-lg pt-2">{{ $t("aboutPage.thankGreeting") }}</p>
+        <!-- <p class="text-lg pt-2">{{ $t("aboutPage.thankGreeting") }}</p> -->
       </div>
       <div class="w-full md:w-1/2 relative" data-sal="fade"
       data-sal-delay="300"
       data-sal-duration="800"
-      data-sal-easing="ease-out-bounce">
+      data-sal-easing="ease-out-back">
         <div
           class="w-full h-80 ring-4 ring-green-300 rounded-lg ring-inset"
+          data-sal="slide-left"
+        data-sal-delay="2000"
+      data-sal-duration="1200"
+      data-sal-easing="ease-out-bounce"
         ></div>
-        <div class="company-image">
+        <div class="company-image"
+        data-sal="slide-right"
+        data-sal-delay="2000"
+      data-sal-duration="1200"
+      data-sal-easing="ease-out-bounce">
           <img src="./../../assets/meira.png" class="w-1/4" alt="logo" />
         </div>
       </div>

@@ -116,6 +116,6 @@ export default {
 }
 
 .custom-shape-divider-bottom-1637744615 .shape-fill {
-  fill: #e5e7eb;
+  fill: white;
 }
 </style>

@@ -4,6 +4,7 @@ const messages = {
   en: {
     lang: "English",
     menu: ["Home", "Products", "About Us", "Contact"],
+    scrollDown: "Scroll down to know us !",
     contactButton: "Contact Now",
     address: "Merbau Street, Selatpanjang Kota",
     city: "Kab. Kepulauan Meranti, Riau, Indonesia",
@@ -66,7 +67,7 @@ const messages = {
     },
     aboutPage: {
       title: "Know",
-      description: "MEIRA Coffee are exporters of leading commodities in one of the regencies in Riau, namely the Meranti Islands. built by people who share the same vision, and manage to serve clients professionally.",
+      description: "Welcome to Tweak Studio, where we specialize in creating exceptional digital experiences. Our team of talented designers, developers, and strategists blend creativity, innovation, and technology to deliver tailored solutions for businesses of all sizes. From web design and development to digital marketing, we pride ourselves on collaboration, transparency, and delivering outstanding results. Let us bring your vision to life and empower your online presence. Contact us today to discuss your project!",
       thankGreeting: "We are very grateful for all our partners and clients, Following the moment and will always serve the best for all.",
       visi: {
         title: "Vision",
