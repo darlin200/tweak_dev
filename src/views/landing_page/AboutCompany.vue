@@ -1,6 +1,6 @@
 <template>
   <!-- Hero page -->
-  <section class="relative mt-20">
+  <section class="relative mt-40">
     <div
       class="bg-local bg-blend-darken py-28 text-center text-black"
      
@@ -19,10 +19,10 @@
       data-sal-delay="800"
       data-sal-duration="1600"
       data-sal-easing="ease-out-bounce">
-        <p class="text-lg text-green-600 font-medium">{{ $t("aboutPage.title") }}</p>
+        <!-- <p class="text-lg text-green-600 font-medium">{{ $t("aboutPage.title") }}</p> -->
         <p class="text-4xl font-black">{{ $t("menu[2]") }}</p>
         <p class="text-lg pt-4">{{ $t("aboutPage.description") }}</p>
-        <p class="text-lg pt-2">{{ $t("aboutPage.thankGreeting") }}</p>
+        <!-- <p class="text-lg pt-2">{{ $t("aboutPage.thankGreeting") }}</p> -->
       </div>
       <div class="w-full md:w-1/2 relative" data-sal="fade"
       data-sal-delay="300"
