@@ -46,29 +46,6 @@
       </div>
     </div>
   </section>
-  <section
-    class="
-      py-36
-      bg-gray-300
-      opacity-80
-      text-center
-      px-6
-      items-center
-      md:px-10
-      lg:px-36
-    "
-  >
-    <p class="text-3xl font-black">{{ $t("aboutPage.visi.title") }}</p>
-    <p class="text-lg">
-      {{ $t("aboutPage.visi.desc") }}
-    </p>
-    <p class="text-3xl font-black pt-5">{{ $t("aboutPage.misi.title") }}</p>
-    <div class="text-lg">
-      <p>{{ $t("aboutPage.misi.misi1") }}</p>
-      <p>{{ $t("aboutPage.misi.misi2") }}</p>
-      <p>{{ $t("aboutPage.misi.misi3") }}</p>
-    </div>
-  </section>
 </template>
 
 <script>

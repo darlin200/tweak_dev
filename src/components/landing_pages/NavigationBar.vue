@@ -19,12 +19,12 @@
               {{ $t("menu[0]") }}
             </router-link>
           </li>
-          <li class="text-gray-600 hover:text-gray-900">
+          <!-- <li class="text-gray-600 hover:text-gray-900">
             <router-link to="/product">
-              {{ $t("menu[1]") }}
+              {{ $t("menu[1]") }} -->
               <!-- product -->
-            </router-link>
-          </li>
+            <!-- </router-link>
+          </li> -->
           <li class="text-gray-600 hover:text-gray-900">
             <router-link to="/about">
               {{ $t("menu[2]") }}
