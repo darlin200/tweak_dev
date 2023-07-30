@@ -37,15 +37,15 @@ const messages = {
     },
     productSection: {
       smallTitle: "Let's check",
-      bigTitle: "Our Product",
-      productSmallTitle: "Our main product are",
-      productTitle: "Areca Nut",
+      bigTitle: "Our Principles",
+      productSmallTitle: "Our main principle is",
+      productTitle: "being better time to time ",
       description:
-        "Areca nut is a plant belonging to palms. This tree is one of the plants with high economic value and potential. Areca nut is mainly grown for its seeds. Areca nut has many benefits, so that currently areca nut has become a trading commodity.",
+        "This means we are committed to an ongoing journey of improvement and progress. We continuously strive to innovate, embrace change, and adapt to meet the evolving needs of our customers. With a focus on customer-centricity, we value feedback, invest in learning, and maintain the highest standards of quality. Our collaborative and inclusive environment fosters sustainable growth and ensures that we are always moving forward, aiming to exceed expectations and make a positive impact.",
       variantTitle: "We export one of kind",
-      variant: "Areca Nuts",
+      variant: "Nerding",
       variantDescription:
-        "Various types of varieties that exist, namely, areca betara, areca red, areca bulawan, areca palm and areca nut irian.",
+        "Working hard with nerd pro-activity cause we can !",
       getProductTitle: "Get our areca nuts now",
     },
     getTouchSection: {
@@ -116,15 +116,15 @@ const messages = {
     },
     productSection: {
       smallTitle: "Перевіримо",
-      bigTitle: "Наш продукт",
-      productSmallTitle: "Наш головний продукт -",
-      productTitle: "Горіх арека",
+      bigTitle: "Наші принципи",
+      productSmallTitle: "Наш головний принцип -",
+      productTitle: "Бути кращими час від часу :)",
       description:
-        "Горіх арека - рослина, належить до пальм. Це дерево є одним з рослин з високою економічною цінністю та потенціалом. Горіх арека вирощується в основному для його насіння. Горіх арека має багато користі, тому він став товаром для торгівлі.",
-      variantTitle: "Ми експортуємо єдиний у своєму роді",
-      variant: "Горіх арека",
+        "Це означає, що ми прагнемо до постійного вдосконалення та прогресу. Ми постійно прагнемо впроваджувати інновації, сприймати зміни та адаптуватися до нових потреб наших клієнтів. Зосереджуючись на клієнтоорієнтованості, ми цінуємо відгуки, інвестуємо в навчання та підтримуємо найвищі стандарти якості. Наше середовище співпраці та інклюзивності сприяє сталому зростанню та гарантує, що ми завжди рухаємося вперед, прагнучи перевершити очікування та зробити позитивний вплив.",
+      variantTitle: "Ми експортуємо єдине у своєму роді",
+      variant: "Задтротство!",
       variantDescription:
-        "Існують різні типи сортів, а саме, арека бетара, червоний арека, золотистий арека, арека пальма та іріанський горіх арека.",
+        "Працювати важно, добре та бути уважними до всього !",
       getProductTitle: "Отримайте наші горіхи арека зараз",
     },
     getTouchSection: {
