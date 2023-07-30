@@ -42,6 +42,7 @@ export default {
           text-white;
 }
 .card-wrapper {
+  cursor: pointer;
   @apply bg-white
         rounded-3xl
         group-hover:shadow-lg
