@@ -84,7 +84,7 @@ const messages = {
     id: {
       lang: "Українська",
       menu: ["Головна", "Продукти", "Про нас", "Контакти"],
-      scrollDown: "Прокрутіть вниз, щоб познайомитися з нами!",
+      scrollDown: "Скроль вниз щоб взнати хто ми",
       contactButton: "Зв'яжіться зараз",
       address: "Україна, Хмельницький",
       city: "Kab. Kepulauan Meranti, Riau, Indonesia",
