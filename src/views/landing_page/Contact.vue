@@ -9,7 +9,8 @@
       </div>
     </section>
     <div class="contact-card">
-      <div class="contact-information-box hover:text-white">
+      <div class="contact-card-part">
+        <div class="contact-information-box hover:text-white">
         <p class="text-2xl font-medium">
           {{ $t("contactPage.contactInformation") }}
         </p>
@@ -29,6 +30,8 @@
           <p class="font-semibold">{{ $t("contactPage.mail") }}</p>
         </div>
       </div>
+     </div>
+    
       <div class="w-full md:w-2/3 px-0 md:px-20 py-8 md:py-10 space-y-2">
         <!-- Empty State -->
         <div
@@ -142,13 +145,14 @@ export default {
 }
 
 .contact-information-box {
+  margin: 30px;
   @apply bg-gradient-to-t
           from-green-400
           to-green-600
           items-center
           rounded-3xl
           w-full
-          md:w-1/3
+        
           p-6
           text-green-100
           space-y-1;
@@ -161,5 +165,10 @@ export default {
 
 .text-error {
   @apply text-red-400 font-medium;
+}
+.contact-card-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>
