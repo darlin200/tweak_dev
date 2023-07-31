@@ -59,11 +59,11 @@
             $t("menu[0]")
           }}</router-link>
         </div>
-        <div class="w-full py-1" @click="menuMobile">
+        <!-- <div class="w-full py-1" @click="menuMobile">
           <router-link to="/product" class="w-min text-xl">{{
             $t("menu[1]")
           }}</router-link>
-        </div>
+        </div> -->
         <div class="w-full py-1" @click="menuMobile">
           <router-link to="/about" class="w-min text-xl">{{
             $t("menu[2]")
@@ -78,7 +78,7 @@
       <div
         class="flex px-4 justify-between items-center space-x-4 border-t-2 pt-2"
       >
-        <button @click="changeLang('id')" :class="activeLang == 'id' ? 'bg-green-400' : 'bg-green-100'" class="flex-1 py-2 rounded-lg bg-green-100 shadow-md font-medium focus:bg-green-400 focus:ring-4 ring-green-300 ring-inset">B. Indonesia</button>
+        <button @click="changeLang('id')" :class="activeLang == 'id' ? 'bg-green-400' : 'bg-green-100'" class="flex-1 py-2 rounded-lg bg-green-100 shadow-md font-medium focus:bg-green-400 focus:ring-4 ring-green-300 ring-inset">Українська</button>
         <button @click="changeLang('en')" :class="activeLang == 'en' ? 'bg-green-400' : 'bg-green-100'"  class="flex-1 py-2 rounded-lg bg-green-100 shadow-md font-medium focus:bg-green-400 focus:ring-4 ring-green-300 ring-inset">English</button>
       </div>
     </div>

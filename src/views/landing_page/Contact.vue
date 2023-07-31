@@ -171,4 +171,9 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+  .contact-information-box {
+    margin: 0;
+  }
+}
 </style>
